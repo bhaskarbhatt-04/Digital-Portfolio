@@ -1,0 +1,255 @@
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+.contact-item {
+  flex-basis: 30%;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  color: black;
+}
+
+.contact-item p:first-child {
+  font-weight: bold;
+  margin-top: 100px;
+  margin-bottom: 5px;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  color: white;
+}
+
+.contact-item p:first-child:hover {
+  transform: rotate(300deg);
+}
+
+@keyframes hd1 {
+  0% {
+      transform: translateX(-100%);
+  }
+  100% {
+      transform: translateX(0%);
+  }
+}
+.header1 {
+  font-size: 35px;
+  margin-left: 150px;
+  margin-top: 140px;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  animation: hd1 3s ease 1;
+}
+.header2 {
+  font-size: 25px;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+
+.img-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.boy {
+  margin-right: 120px;
+  margin-top: 140px;
+}
+.top-item {
+  background-color: #ffffff;
+}
+p{
+  color: white;
+}
+
+.lastbox {
+  border-style: double;
+  border-color: aliceblue;
+  margin-left: 380px;
+  margin-right: 380px;
+  border-width: 10px;
+  color: white;
+}
+
+
+.second {
+  font-family: "Times New Roman", Times, serif;
+  font-size: small;
+  color: white;
+  text-align: justify;
+  font-size: 15px;
+}
+.App {
+  background-image: linear-gradient(#000e20, #000e20);
+  background-repeat: no-repeat;
+  background-color: (255, 255, 255, 0.8);
+  background-size: cover;
+  padding-bottom: 25px;
+}
+
+.linkss{
+  color: white;
+  text-decoration: none;
+}
+
+.linkss:hover{
+  color:rgb(103, 0, 0);
+  text-decoration: double;
+}
+
+@keyframes giffy {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(0%);
+  }
+}
+.giffy{
+  margin-top: 170px;
+  margin-right: 150px;
+}
+.giffy:hover{
+  transform: rotate3d(90deg);
+}
+.giffy{
+  
+  animation: giffy 3s ease 1;
+
+}
+
+@media screen and (max-width: 601px) {
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    column-gap: -10px;
+    justify-content: space-between;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+  }
+
+  .contact-item {
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    color: black;
+    margin-left: 70px;
+    margin-top: 30px;
+  }
+  
+  .contact-item p:first-child {
+    font-weight: bold;
+    margin-top: 25px;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    color: white;
+  }
+  
+  .contact-item p:first-child:hover {
+    transform: rotate(300deg);
+  }
+
+  
+@keyframes hd1 {
+  0% {
+      transform: translateX(-100%);
+  }
+  100% {
+      transform: translateX(0%);
+  }
+}
+.header1 {
+  font-size: 35px;
+  margin-left: 80px;
+  margin-top: 140px;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  animation: hd1 3s ease 1;
+}
+.header2 {
+  font-size: 25px;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+
+.img-text {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+.top-item {
+  background-color: #ffffff;
+}
+p{
+  color: white;
+}
+
+.lastbox {
+  border-style: double;
+  border-color: aliceblue;
+  margin-left: 380px;
+  margin-right: 380px;
+  border-width: 10px;
+  color: white;
+}
+
+
+.second {
+  font-family: "Times New Roman", Times, serif;
+  font-size: small;
+  color: white;
+  text-align: justify;
+  font-size: 15px;
+}
+.App {
+  background-image: linear-gradient(#000e20, #000e20);
+  background-repeat: no-repeat;
+  background-color: (255, 255, 255, 0.8);
+  background-size: cover;
+  padding-bottom: 25px;
+  padding-right: 30px;
+}
+
+.linkss{
+  color: white;
+  text-decoration: none;
+}
+
+.linkss:hover{
+  color:rgb(103, 0, 0);
+  text-decoration: double;
+}
+
+@keyframes giffy {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(0%);
+  }
+}
+.giffy{
+  margin-top: 120px;
+  margin-right: 130px;
+  margin-left: 60px;
+  width: 300px;
+  height: 250px;
+}
+.giffy:hover{
+  transform: rotate3d(90deg);
+}
+.giffy{
+  
+  animation: giffy 3s ease 1;
+
+}
+  
+}

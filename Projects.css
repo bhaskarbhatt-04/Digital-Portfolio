@@ -1,0 +1,68 @@
+.boxes1,
+.boxes2 {
+  display: flex;
+  gap: 40px;
+  margin-left: 170px;
+  margin-top: 50px;
+}
+@keyframes bxs {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+.boxes1,
+.boxes2 {
+  animation: bxs 2s ease 1;
+}
+.card-img-top {
+  margin-left: -1px;
+}
+.card {
+  background-image: linear-gradient(#000e20, #000e20);
+  border-radius: 30px 30px 30px 30px;
+}
+
+.bgm {
+  padding-bottom: 60px;
+  margin-left: 5%;
+}
+
+@media screen and (max-width: 601px) {
+  .boxes1,
+  .boxes2 {
+    display: flex;
+    flex-direction: column;
+    column-gap: 40px;
+    margin-left: 170px;
+    margin-top: 50px;
+  }
+  @keyframes bxs {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  .boxes1,
+  .boxes2 {
+    animation: bxs 2s ease 1;
+  }
+  .card-img-top {
+    margin-left: -1px;
+    height:180px;
+  }
+  .card {
+    background-image: linear-gradient(#000e20, #000e20);
+    border-radius: 30px 30px 30px 30px;
+    position: relative;
+    margin-left: -130px;
+  }
+
+  .bgm {
+    padding-bottom: 60px;
+  }
+}

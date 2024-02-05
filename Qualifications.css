@@ -1,0 +1,294 @@
+.skill-img {
+  margin-left: 310px;
+  margin-bottom: 45px;
+}
+@keyframes  skillim{
+  0% {
+      transform: translateY(-100%);
+  }
+  100% {
+      transform: translateY(0%);
+  }
+}
+.skill-img1 {
+  margin-top: 40px;
+  animation: skillim 1s ease 1;
+  animation-direction: alternate;
+}
+
+@keyframes  skillim1{
+  0% {
+      transform: translateY(100%);
+  }
+  100% {
+      transform: translateY(0%);
+  }
+}
+.skill-img3{
+  animation: skillim1 1s ease 1;
+  animation-direction: alternate;
+}
+
+img {
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 35px;
+}
+
+td {
+  padding: 10px 10px 10px 10px;
+  border-collapse: collapse;
+}
+
+.q-icn{
+  margin-left: 600px;
+}
+
+.btnedu1{
+  margin-left: 25%;
+  margin-top: 25px;
+}
+.custom-width-btn{
+  width: 70%;
+}
+.custom-dropdown-menu{
+  min-width: 52.6%;
+}
+.accordion-body{
+  background-color: aqua;
+}
+.accordion-button{
+  color: purple;
+}
+.ACC{
+  margin-left: 210px;
+}
+
+.cllgedu1{
+  display: flex;
+  margin-left: 100px;
+  border-radius: 10px;
+  color: white;
+}
+
+@keyframes bx {
+  0% {
+    transform: translateX(100%);
+}
+100% {
+    transform: translateX(0%);
+}
+  
+}
+
+.box1{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding-right: 40px;
+  animation: bx 1s ease 1;
+  animation-direction: alternate;
+
+}
+
+@keyframes bx1 {
+  0% {
+    transform: translateX(-100%);
+}
+100% {
+    transform: translateX(0%);
+}
+  
+}
+.box2{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding-right: 40px;
+  animation: bx1 3s ease 1;
+  animation-direction: alternate;
+
+}
+.para{
+  margin-top: 50px;
+  padding-right: -10%;
+  margin-left: 50px;
+
+}
+
+.score{
+  display: flex;
+  gap: 60px;
+}
+.score2{
+  display: flex;
+  gap: 220px;
+}
+.splbtn{
+  margin-left: 600px;
+}
+.page{
+  padding-bottom: 50px;
+  margin-left: 2.5%;
+}
+.img10{
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 601px) {
+  table{
+    margin-left: -300px;
+  }
+  .skill-img {
+    margin-bottom: 45px;
+  }
+  @keyframes  skillim{
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+  }
+  .skill-img1 {
+    margin-top: 40px;
+    animation: skillim 1s ease 1;
+    animation-direction: alternate;
+  }
+  
+  @keyframes  skillim1{
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+  }
+  .skill-img2,.skill-img4{
+    animation: skillim1 1s ease 1;
+    animation-direction: alternate;
+  }
+  .skill-img3{
+    animation: skillim 1s ease 1;
+    animation-direction: alternate;
+  }
+  
+  img {
+    margin-right: 40px;
+    border-radius: 35px;
+    height: 100px;
+    width: 100px;
+  }
+  
+  td {
+    padding: 10px 10px 10px 10px;
+    border-collapse: collapse;
+  }
+  
+  .q-icn{
+    margin-left: 145px;
+  }
+  
+  .btnedu1{
+    margin-left: 25%;
+    margin-top: 25px;
+  }
+  .custom-width-btn{
+    width: 70%;
+  }
+  .custom-dropdown-menu{
+    min-width: 52.6%;
+  }
+  .accordion-body{
+    background-color: aqua;
+  }
+  .accordion-button{
+    color: purple;
+  }
+  .ACC{
+    margin-left: 210px;
+  }
+  
+  .cllgedu1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    border-radius: 10px;
+    color: white;
+  }
+  .cllgedu2{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 100px;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  @keyframes bx {
+    0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(0%);
+  }
+    
+  }
+  
+  .box1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-right: 40px;
+    animation: bx 1s ease 1;
+    animation-direction: alternate;
+  
+  }
+  
+  @keyframes bx1 {
+    0% {
+      transform: translateX(-100%);
+  }
+  100% {
+      transform: translateX(0%);
+  }
+    
+  }
+  .box2{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-right: 40px;
+    animation: bx1 3s ease 1;
+    animation-direction: alternate;
+  
+  }
+  .para{
+    margin-top: 50px;
+    padding-right: -10%;
+    margin-left: -50px;
+    text-align: center;
+  
+  }
+  
+  .score{
+    display: flex;
+    gap: 40px;
+  }
+  .score2{
+    display: flex;
+    gap: 200px;
+  }
+  /* .splbtn{
+    
+  } */
+  .page{
+    padding-bottom: 50px;
+    margin-left: -20px;
+  }
+  .img10{
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+  }
+
+  .splbtn{
+    margin-left: 190px;
+  }
+    
+}
